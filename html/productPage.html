@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detailPage</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/productPage.css">
+    <link rel="stylesheet" href="../css/productPage_media.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/productPage.js"></script>
+</head>
+<body>
+    <div id="wrap">
+     <!-- header -->
+     <div id="headerWrap">
+      <div>
+        <header>
+            <h1>
+                <a href="main.html"><img src="../images/storeLogo.png" alt="logo"></a>
+            </h1>
+            <div id="nav">
+            <nav>
+                <ul  id="nav1">
+                    <li><a href="#">ABOUT</a>
+                        <ul class="subNav">
+                            <li><a href="#">브랜드 소개</a></li>
+                          </ul>
+                    </li>
+                    <li><a href="#">PRODUCT</a>
+                        <ul class="subNav">
+                            <li><a href="productAll.html">all</a></li>
+                            <li><a href="#">best</a></li>
+                            <li><a href="#">dog</a></li>
+                            <li><a href="#">cat</a></li>
+                            <li><a href="#">small animal</a></li>
+                            <li><a href="#">sale</a></li>
+                          </ul></li>
+                    <li><a href="#">EVENT</a>
+                        <ul class="subNav">
+                            <li><a href="#">진행중 이벤트</a></li>
+                            <li><a href="#">지난 이벤트</a></li>
+                          </ul></li>
+                    <li><a href="#">CS CENTER</a>
+                        <ul class="subNav">
+                            <li><a href="notice.html">noitce</a></li>
+                            <li><a href="#">review</a></li>
+                            <li><a href="#">QnA</a></li>
+                            <li><a href="#">contact</a></li>
+                          </ul></li>
+                  </ul>
+        
+                  <ul id="nav2">
+                    <li><a href="login.html"><img src="../images/loginBtn2.png" alt="login"></a>
+                      <!-- <ul>
+                          <li><a href="login.html">로그인</a></li>
+                          <li><a href="join.html">회원가입</a></li>
+                        </ul> -->
+                      </li>
+                  <li><a href="#"><img src="../images/cartBtn.png" alt="cart"></a>
+                        </li>
+                  <li><a href="#"><img src="../images/searchBtn.png" alt="search"></a>
+                        </li>
+                  </ul>
+                
+                  <p class="closeBtn" id="closeBtn" >
+                    <span></span>
+                    <span></span>
+                  </p>
+            </nav>
+          </div>
+            <p class="navBtn" id="navBtn" >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </p>
+        </header>
+      </div>
+    </div>
+
+    <!-- box01 -->
+    <div id="box01">
+        <section>
+            <img src="../images/상품1.jpg" alt="상품1">
+            <!--  -->
+            <div id = detailView>
+                <ul  id="pName">
+                    <li id="productName">
+                        <dt>상품이름</dt>
+                        <dd id="price">12000</dd>
+                        <dd>배송비 : 3,000원</dd>
+                        <hr>
+                    </li>
+                </ul>
+
+                    <ul id="pType">
+                    <li>
+                     <span class="selectText">타입을 선택하세요.</span>
+                    <select name="" id="">
+                        <option value="타입1">타입1</option>
+                        <option value="타입1">타입2</option>
+                    </select>
+                    </li>
+                    <li><span class="selectText">사이즈를 선택하세요.</span>
+                    <select name="" id="">
+                        <option value="사이즈1">사이즈1</option>
+                        <option value="사이즈2">사이즈2</option>
+                    </select>
+                    </li>
+                    <li><span class="selectText">색상을 선택하세요.</span>
+                    <select name="" id="">
+                        <option value="색1">색1</option>
+                        <option value="색3">색3</option>
+                    </select>
+                    </li>
+                    <li>
+                        <span class="selectText">수량을 선택하세요.</span>
+                        <div id="num">
+                            <input type="button" value="-" id="minus">
+                            <span class="cntNum">0</span>
+                            <input type="button" value="+" id="plus">
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <div id="total">    
+                    <span>총액 : </span>
+                    <span id="totalPrice">0</span>
+                </div>
+                <br>
+                <div class="btn">
+                  <input id="cartBtn" type="button" value="장바구니" class="pBtn" >
+                  <input id="orderBtn" type="button" value="주문하기" class="pBtn">
+                </div>
+                <hr>
+            </div>
+
+            <div id="box02">
+                <input id="detailBtn" type="button" value="제품정보">
+                <input id="reviewBtn" type="button" value="리뷰">
+                <input id="contactBtn" type="button" value="문의">
+            </div>
+
+            <div id="box04">
+                <img src="../images/상세정보.jpeg" alt="">
+            </div>
+
+        </section>
+      </div> 
+
+
+   
+
+ 
+    
+      <!-- footer -->
+      <div id="footer">
+        <footer>
+          <!--  -->
+            <div id="footer1">
+              <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이용안내</a></li>
+              </ul>
+            </div>
+          
+       <div id="footer2">
+          <!--  -->
+            <div id="footer2_div">
+              <p class="footer_p1">사업문의</p>
+              <p class="footer_p2">전화번호 : 070-1234-1234</p>
+              <p class="footer_p2">이메일 : contact@email.com</p>
+            </div>
+
+          <!--  -->
+          <div id="footer2_div2">
+            <p class="footer_p1">고객센터</p>
+            <p class="footer_p2">1234 - 1234</p>
+            <p class="footer_p2">AM 09:00 ~ PM 18:00</p>
+            <p class="footer_p2">PM 12:00 ~ 13:00 (Lunch)</p>
+            <p class="footer_p2">SAT, SUN, HOLIDAY OFF</p>
+          </div>
+
+          <!--  -->
+          <div id="footer2_div3">
+          
+            <img src="../images/storeLogo.png" alt="logo">
+            
+            <p class="footer_p2">상호명 : (주)위드펫 | 사업자등록번호 : 123-45-56789 | 통신판매업신고 : 2021-서울-0234</p>
+            <p class="footer_p2">대표자 : 이은혜 | 주소 : 04624 서울특별시 중구 필동로 15 (필동2가) 탑필빌딩 5층</p>
+          
+          
+          <small>© copyright 2021 Lee Eun Hye </small>
+        </div>
+        </div>
+        </footer>
+    </div>
+
+    
+        <!-- box02 -->
+        <div id="box02">
+          <section id="orderPop">
+           <ul id="pType2">
+             <li>
+              <span class="selectText">타입을 선택하세요.</span>
+             <select name="" id="">
+                 <option value="타입1">타입1</option>
+                 <option value="타입1">타입2</option>
+             </select>
+             </li>
+             <li><span class="selectText">사이즈를 선택하세요.</span>
+             <select name="" id="">
+                 <option value="사이즈1">사이즈1</option>
+                 <option value="사이즈2">사이즈2</option>
+             </select>
+             </li>
+             <li><span class="selectText">색상을 선택하세요.</span>
+             <select name="" id="">
+                 <option value="색1">색1</option>
+                 <option value="색3">색3</option>
+             </select>
+             </li>
+             <li>
+                 <span class="selectText">수량을 선택하세요.</span>
+                 <div id="num">
+                     <input type="button" value="-" id="minus">
+                     <span class="cntNum">0</span>
+                     <input type="button" value="+" id="plus">
+                 </div>
+             </li>
+         </ul>
+         <hr>
+         <div id="total">    
+             <span>총액 : </span>
+             <span id="totalPrice">0</span>
+         </div>
+
+         
+         <p class="order_closeBtn" id="order_closeBtn" >
+          <span></span>
+          <span></span>
+        </p>
+          </section>
+       </div>
+
+</div>
+<script>
+   $(function(){
+        let wWidth =$(window).width();
+        totalNum();
+        totalPrice();
+        if(wWidth >= 980){
+          nav();
+        }
+        if(wWidth <= 979 && wWidth >= 650){
+          mNav();
+          boxBtn();
+        }
+        if(wWidth <= 649 ){
+          mNav();
+        }
+
+      });
+
+</script>
+   
+</body>
+</html>
