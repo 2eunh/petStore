@@ -326,7 +326,7 @@ div#box03>section{
     /* width: 1150px; */
     width: 70%;
     overflow: hidden;
-    background-color: pink;
+    /* background-color: pink; */
 }
 div#box03>section>h2{
     font: bold 35px 'eng_right', Arial, sans-serif;
@@ -448,7 +448,7 @@ div#footer2_div3>img{
 
 
 /* ////////////////// */
-/* .underline {
+.underline {
     line-height: 1.2;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 
@@ -469,7 +469,7 @@ div#footer2_div3>img{
   }
   .underline:hover {
     background-size: 100% 100%;
-  } */
+  }
 
 
   /* //줌 */

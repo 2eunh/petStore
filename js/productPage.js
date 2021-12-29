@@ -81,6 +81,8 @@ function totalPrice(){
     });   
 }
 // https://fruitdev.tistory.com/160
+
+
 //box2 
 function boxBtn(){
    $('#orderBtn').on('click',function(){

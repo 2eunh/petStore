@@ -35,8 +35,6 @@ div#wrap{
   
 }
 
-
-
 /* header */
 div#headerWrap{
     position: fixed;
@@ -81,7 +79,7 @@ div#headerWrap nav>ul#nav1>li{
     margin: 0 15px;
 }
 div#headerWrap nav>ul#nav1>li>a{
-    font: bold 20px/38px 'eng_right', 'kor', sans-serif;
+    font: bold 20px/38px 'eng_right', Arial, sans-serif;
     color: #949fab;
     display: block;
     text-align: center;
@@ -149,11 +147,14 @@ nav>ul#nav2>li>u>li{
 }
 
 /* box01 */
+
 div#box01>section{
     /* width: 1248px; */
-    width: 78%;
+    width: 75%;
     margin: 130px auto;
     display: inline-block;
+    /* background-color: pink; */
+
 }
 .hideClass{
     display: none;
@@ -164,6 +165,8 @@ div#box01>section>h2{
     text-align: center;
     margin-bottom: 30px;
 }
+
+
 #box01 form ul{
     text-align: center;
 }
@@ -171,9 +174,13 @@ div#box01>section>h2{
     margin-bottom: 5px;
     position:relative;
 }
+
+#logBtn{
+    text-align: center;
+}
 .contact_input_id{
     font:  30px 'eng_right', Arial, sans-serif;
-    width: 230px;
+    width: 250px;
     height: 50px;
     margin-bottom: 7px;
     border: 0px;
@@ -182,106 +189,44 @@ div#box01>section>h2{
     color: #60656b;
 }
 .idChk{
-    width: 120px;
-    height: 52px;
-    border: 0px;
-    margin-bottom: 7.5px;
-    font:  15px 'kor', Arial, sans-serif;
+    font: 15px 'kor_right', Arial, sans-serif;
     color: #fff;
-    background-color: #60656b8e;
+    width: 100px;
+    height: 51px;
+    border: none;
+    background-color: #787d868e;
+    margin-bottom: 6px;
 }
 .idChk:hover{
-    cursor: pointer;
     background-color: #60656b7c;
+    cursor: pointer;
 }
 .contact_input{
     font:  30px 'eng_right', Arial, sans-serif;
-    width: 350px;
+    width: 360px;
     height: 50px;
     margin-bottom: 7px;
     border: 0px;
     background-color: #949fab36;
     font-size: 18.5px;
     color: #60656b;
+    /* margin-left: 50px; */
 }
-.contact_input_id:focus, .contact_input:focus{
-    outline: none;
-}
-div#joinInput>select{
-    outline: none;
-}
-
-div#joinInput>label{
-    font: 16px '맑은고딕', Arial, sans-serif;
-    display: inline-block;
-    width: 115px;
-}
-div#joinInput>input.joinInput2{
-    width: 120px;
-    height: 44px;
-    margin-bottom: 7px;
-    border: 0px;
-    background-color: #949fab36;
-    font-size: 18.5px;
-    color: #60656b;
-}
-div#joinInput>input.joinInput3{
-    width: 220px;
-    height: 44px;
-    margin-bottom: 7px;
-    border: 0px;
-    background-color: #949fab36;
-    font-size: 18.5px;
-    color: #60656b;
-}
-div#joinInput>select#selectPhone{
-    width: 120px;
-    height: 44px;
-    text-align: center;
-    font: 16px '맑은고딕', Arial, sans-serif;
-    background-color: #949fab36;
-    border: 0px;
-    color: #60656b;
-}
-div#joinInput>input#idChk{
-    width: 175px;
-    height: 44px;
-    border: 0px;
-    font: 16px '맑은고딕', Arial, sans-serif;
-    background-color: #60656b8e;
-    color: #fff;
-}
-div#joinInput>input#idChk:hover{
-    background-color: #60656b7c;
-    cursor: pointer;
-}
-div#joinInput>select#selectMail{
-    width: 152px;
-    height: 44px;
-    text-align: center;
-    font: 16px '맑은고딕', Arial, sans-serif;
-    background-color: #949fab36;
-    border: 0px;
-    color: #60656b;
-}
-div#joinInput>input.radio_gender{
-    width: 50px;
-    margin-left: 40px;
-}
-div#joinInput>span{
-    display: inline-block;
-    width: 85px;
-}
-
 div#joinButton>input{
-    width: 262px;
+    width: 227px;
     height: 48px;
-    border: 1px solid;
-    border-color: #60656b88;
-    background-color: #60656b8e;
-    margin-top: 20px;
+    border: 0px solid;
+    /* border-color: #60656b88;
+    background-color: #60656b8e; */
+    margin-top: 10px;
     color: #fff;
-    font: bold 19px '맑은고딕', Arial, sans-serif ;
+    font:  19px 'kor_rihgt', Arial, sans-serif ;
+}
+#cancleBtn{
+    background-color: #60656b8e;
+}
+#joinBtn{
+    background-color: #787d868e;
 }
 div#joinButton>input:hover{
     background-color: #60656b7c;
@@ -293,6 +238,9 @@ div#joinButton>input#joinBtn{
 div#joinButton>input#cancleBtn{
     margin-left: -2.9px;
 }
+/* div#box01>input:focus{
+    outline: none;
+} */
 
 
 /* 사이드메뉴 */
@@ -396,13 +344,7 @@ div#footer2_div3{
     /* width: 58%; */
     /* margin-left: 30px; */
 }
-
-
-/* div>footer>div#footer2>dl:nth-child(3)>small{
-    display:block;
-} */
 div#footer2_div3>img{
     width: 180px;
     padding-bottom: 15px;
 }
-
