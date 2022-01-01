@@ -174,13 +174,18 @@ div#box01>section>h2{
     margin-bottom: 5px;
     position:relative;
 }
+#box01 form ul>li>label{
+    display: inline-block;
+    width: 105px;
+    text-align: left;
 
-#logBtn{
+}
+#joinButton{
     text-align: center;
 }
 .contact_input_id{
     font:  30px 'eng_right', Arial, sans-serif;
-    width: 250px;
+    width: 220px;
     height: 50px;
     margin-bottom: 7px;
     border: 0px;
@@ -203,7 +208,7 @@ div#box01>section>h2{
 }
 .contact_input{
     font:  30px 'eng_right', Arial, sans-serif;
-    width: 360px;
+    width: 330px;
     height: 50px;
     margin-bottom: 7px;
     border: 0px;
@@ -212,6 +217,39 @@ div#box01>section>h2{
     color: #60656b;
     /* margin-left: 50px; */
 }
+#userPhone1{
+    width: 70px;
+    font:  30px 'eng_right', Arial, sans-serif;
+    height: 50px;
+    margin-bottom: 7px;
+    border: 0px;
+    background-color: #949fab36;
+    font-size: 18.5px;
+    color: #60656b;
+    text-align: center;
+}
+.contact_textarea{
+    width: 110px;
+    font:  30px 'eng_right', Arial, sans-serif;
+    height: 50px;
+    margin-bottom: 7px;
+    border: 0px;
+    background-color: #949fab36;
+    font-size: 18.5px;
+    color: #60656b;
+}
+#userEmail2{
+    width: 195px;
+    font:  30px 'eng_right', Arial, sans-serif;
+    height: 50px;
+    margin-bottom: 7px;
+    border: 0px;
+    background-color: #949fab36;
+    font-size: 18.5px;
+    color: #60656b;
+    text-align: center;
+}
+
 div#joinButton>input{
     width: 227px;
     height: 48px;

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이디 중복확인</title>
+</head>
+<style>
+    @font-face{
+    font-family:'kor_rihgt';
+    src:url('../font/IBMPlexSansKR-Medium.ttf') format('truetype');
+  }
+    body{
+        background-color: #FAF9F5;
+    }
+    h2{
+        text-align: center;
+        font: bold 23px 'kor_rihgt', Arial, sans-serif;
+        color: #42474d;
+    }
+    #input_text{
+        width: 280px;
+        height: 35px;
+        margin: auto;
+        border: none;
+        background-color: #949fab36;
+    }
+    #input_btn{
+        width: 100px;
+        height: 40px;
+        font: 15px 'kor_rihgt', Arial, sans-serif;
+        border: none;
+        color: #fff;
+        background-color: #777b818e;
+        text-align: center;
+    }
+    #input_btn:hover{
+        background-color: #44494e7c;
+        cursor: pointer;
+    }
+    .input_text{
+        text-align: center;
+        margin: 20px;
+    }
+    .input_btn{
+        text-align: center;
+        /* margin: 30px; */
+    }
+    p{
+        text-align: center;
+        margin: 40px;
+    }
+</style>
+<body>
+    <div id="div1">
+        <h2>ID 중복확인</h2>
+    </div>
+        
+     <div class="input_text">
+    <input type="text" id="input_text">
+     </div> 
+    <div class="input_btn">
+    <input type="button" value="확인하기" id="input_btn">
+    </div>
+    <p>아이디를 입력해주세요.</p>
+</body>
+</html>
