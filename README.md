@@ -59,3 +59,20 @@
 <img width="943" alt="상품상세페이지 디자인" src="https://user-images.githubusercontent.com/96249167/147672545-c8a9506c-16f9-4c43-96d8-e545c35335ab.png">
 
 * 수량의 +,-버튼을 클릭했을 때 수량에 따른 금액이 총금액에 반영되도록 함 (수정중)
+
+**4. 로그인과 회원가입 화면**
+![loginJoin디자인](https://user-images.githubusercontent.com/96249167/147866141-e624b2e9-49de-487c-8fc0-5d8ee6ca239a.jpg)
+
+**5. contact 화면**
+![image](https://user-images.githubusercontent.com/96249167/147866168-84b87983-5ea6-4c04-84f6-16eb3bd20e81.png)
+
+
+
+## 테블릿 & 모바일 버전
+![모바일버전디자인](https://user-images.githubusercontent.com/96249167/147866267-fbcc0f26-a773-470c-bfb0-6c43c65e91af.jpg)
+
+*  햄버거 아이콘을 만들어서 클릭하였을 때, 서브메뉴가 슬라이드되며 나타나도록 함.
+*  상품 리스트를 2열로 줄여서 간단히 보이도록 함.
+*  footer를 간략하게 만들고, 화살표 아이콘을 누르면 상세 내용이 밑으로 슬라이드되며 나타나도록 함. 
+
+
