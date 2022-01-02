@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/login_media.css">
     <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/headerFooter.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -88,15 +89,6 @@
             <form action="#" method="post">
             <fieldset>
             <legend class="hideClass">login</legend>
-            <!-- <div id="logInput">
-                    <input class="logInput" type="text" placeholder=" 아이디">
-                    <br>
-                    <input class="logInput" type="password" placeholder=" 비밀번호">
-            </div>
-            <div id="logBtn">
-                    <input id="loginBtn" type="button" value="로그인">
-                    <input id="joinBtn" type="button" value="회원가입" onclick="location.href='join.html'">
-            </div> -->
             <ul>
                 <li>
                   <label for="userID">아이디</label>
@@ -177,5 +169,24 @@
         </footer>
     </div>
     </div>
+
+    <script>
+
+    $(function(){
+        let wWidth =$(window).width();
+        if(wWidth >= 980){
+          nav();
+        }
+        if(wWidth <= 979 && wWidth >= 650){
+          mNav();
+        }
+        if(wWidth <= 649 ){
+          mNav(); 
+          footerBtn();
+        }
+          
+      });   
+    </script>
+
 </body>
 </html>

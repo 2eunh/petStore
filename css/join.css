@@ -178,6 +178,7 @@ div#box01>section>h2{
     display: inline-block;
     width: 105px;
     text-align: left;
+    font: bold 15px 'kor_rihgt', Arial, sans-serif;
 
 }
 #joinButton{
@@ -194,7 +195,7 @@ div#box01>section>h2{
     color: #60656b;
 }
 .idChk{
-    font: 15px 'kor_right', Arial, sans-serif;
+    font: bold 15px 'kor_right', Arial, sans-serif;
     color: #fff;
     width: 100px;
     height: 51px;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/join.css">
     <link rel="stylesheet" href="../css/join_media.css">
     <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/headerFooter.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -217,6 +218,21 @@
         window.open(url,"아이디 중복확인",windowStatus);
       }
       
+    
+    $(function(){
+    let wWidth =$(window).width();
+    if(wWidth >= 980){
+      nav();
+    }
+    if(wWidth <= 979 && wWidth >= 650){
+      mNav();
+    }
+    if(wWidth <= 649 ){
+      mNav(); 
+      footerBtn();
+    }
+      
+    });   
      
     </script>
 </body>
