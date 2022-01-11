@@ -68,15 +68,16 @@ function gallery(){
         $('#prev, #next').show();
     });
    });     
-    function action(){
-        $('#prev, #next').hide();
-        $('ul#galleryImg').stop().animate({marginLeft:'+='+divWidth+'px'},1500,'swing',function(){
-        $('ul#galleryImg>li:last').prependTo('ul#galleryImg');
-        $('ul#galleryImg').css('marginLeft','-'+divWidth+'px');
-        $('#prev, #next').show();  });
-    }
-    action();
-    let str = setInterval(action,4000);
+   //자동 슬라이드 
+//     function action(){
+//         $('#prev, #next').hide();
+//         $('ul#galleryImg').stop(4000).animate({marginLeft:'+='+divWidth+'px'},1500,'swing',function(){
+//         $('ul#galleryImg>li:last').prependTo('ul#galleryImg');
+//         $('ul#galleryImg').css('marginLeft','-'+divWidth+'px');
+//         $('#prev, #next').show();  });
+//     }
+//     action();
+//    let str = setInterval(action,4000);
     // $('ul#galleryImg>li').mouseenter(function(e){
     //     clearInterval(str);
     // });
